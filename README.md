@@ -2,6 +2,39 @@
 ## GIT CHEAT SHEET
 
 
+### Most used ###
+
+1. **Check the status of your changes**: Before uploading changes, it's good practice to check which files have been modified. You can do this using the `git status` command. Open the integrated terminal in Visual Studio Code and run:
+
+    ```bash
+    git status
+    ```
+
+    This will show you the modified files and those ready to be uploaded.
+
+2. **Add changes to the staging area**: You need to add the modified files to the staging area before committing. You can do this with the `git add` command. If you want to add all modified files, you can use:
+
+    ```bash
+    git add .
+    ```
+
+    If you only want to add specific files, you can list them individually.
+
+3. **Commit the changes**: After adding the files to the staging area, you need to commit the changes with a descriptive message using the `git commit` command. This saves the changes to your local repository.
+
+    ```bash
+    git commit -m "Descriptive message of the changes"
+    ```
+
+4. **Push changes to the remote repository (GitHub)**: Finally, to send the changes to your GitHub repository, you need to use the `git push` command.
+
+    ```bash
+    git push origin <branch_name>
+    ```
+
+    Make sure to replace `<branch_name>` with the name of the branch you are working on.
+
+
 
 ### Getting & Creating Projects
 
